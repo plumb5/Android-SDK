@@ -38,35 +38,21 @@ To get up and running with Plumb5 on Android, there are a couple of steps to get
 Once you get the APP KEY from the Plumb5 dashboard,please add it to the manifest file as shown below.
 
 ```xml
-< uses-permissionandroid:name= "android.permission.INTERNET"/>
-
+<uses-permissionandroid:name= "android.permission.INTERNET"/>
 <uses-permission android:name = "android.permission.WAKE_LOCK" />
-
 <uses-permission android:name = "android.permission.READ_PHONE_STATE" />
-
 <uses-permission android:name = "android.permission.ACCESS_NETWORK_STATE" />
-
 <uses-permission android:name = "android.permission.ACCESS_FINE_LOCATION" />
-
 <uses-permission android:name = "android.permission.ACCESS_COARSE_LOCATION" />
-
 <uses-permission android:name = "android.permission.ACCESS_WIFI_STATE" />
-
 <uses-permission android:name = "android.permission.SEND_SMS" />
-
-< uses-permission android:name = "android.permission.WRITE_EXTERNAL_STORAGE" />
-
-< uses-permission android:name = "android.permission.RECEIVE_BOOT_COMPLETED" />
-
-< uses-permission android:name = "com.google.android.providers.gsf.permission.READ_GSERVICES" />
-
-< uses-permission android:name = "android.permission.BLUETOOTH" />
-
-< uses-permission android:name = "android.permission.BLUETOOTH_ADMIN" />
-
-< uses-permission android:name = "android.permission.CALL_PHONE" />
-
-< uses-permission android:name = "com.google.android.c2dm.permission.RECEIVE" />
+<uses-permission android:name = "android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name = "android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name = "com.google.android.providers.gsf.permission.READ_GSERVICES" />
+<uses-permission android:name = "android.permission.BLUETOOTH" />
+<uses-permission android:name = "android.permission.BLUETOOTH_ADMIN" />
+<uses-permission android:name = "android.permission.CALL_PHONE" />
+<uses-permission android:name = "com.google.android.c2dm.permission.RECEIVE" />
 ```
 
 Runtime permission required for ACCESS_FINE_lOCATION and ACCESS_COARSE_LOCATION ,if you are using Android marshmallow and above.
@@ -75,27 +61,20 @@ Runtime permission required for ACCESS_FINE_lOCATION and ACCESS_COARSE_LOCATION 
 ### **Modify AndroidManifest.xml**
 
 Change application name for tracking.
-
+```xml
 android:name = "com.plugin.plumb5.P5Monitor"
-
 //Add plumb5 Receiver.
-
- 
-
-&lt;receiver android:name = "com.plugin.plumb5.P5BootCompleteReceiver">
+<receiver android:name = "com.plugin.plumb5.P5BootCompleteReceiver">
 
 android:exported="false"
 
 android:permission="android.intent.action.BOOT_COMPLETED"
 
-&lt;intent-filter>
-
-&lt;action android:name = "android.intent.action.BOOT_COMPLETED"/>
-
-&lt;/intent-filter>
-
-&lt;/receiver>
-
+<intent-filter>
+<action android:name = "android.intent.action.BOOT_COMPLETED"/>
+</intent-filter>
+</receiver>
+```
 ### **Track Event**
 
 In extends Application class file
