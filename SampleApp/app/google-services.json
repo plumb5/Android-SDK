@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "1083093532575",
+    "firebase_url": "https://markets-uat.firebaseio.com",
+    "project_id": "markets-uat",
+    "storage_bucket": "markets-uat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083093532575:android:782b903539c5b1c8",
+        "android_client_info": {
+          "package_name": "in.bajajfinservmarkets.app.loans.insurance.emistore.investment.credit.cards.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfglaaog2BJ-Xw27g05N13z9awdWMRtUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083093532575-0kvivmjltpkatvphp142engp4lbkqk1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.bajajfinservmarkets.app.loans.insurance.emistore.investment.cards",
+                "app_store_id": "1458582410"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083093532575:android:9c39d1e8a79eb68c",
+        "android_client_info": {
+          "package_name": "in.bajajfinservmarkets.app.loans.insurance.emistore.investment.credit.cards.upi.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfglaaog2BJ-Xw27g05N13z9awdWMRtUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083093532575-0kvivmjltpkatvphp142engp4lbkqk1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.bajajfinservmarkets.app.loans.insurance.emistore.investment.cards",
+                "app_store_id": "1458582410"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083093532575:android:394f73ee08d8235bb947aa",
+        "android_client_info": {
+          "package_name": "in.bajajfinservmarkets.app.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfglaaog2BJ-Xw27g05N13z9awdWMRtUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083093532575-3q7u9d1sq1933t1suf1ach01klkm1l86.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083093532575-0kvivmjltpkatvphp142engp4lbkqk1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.bajajfinservmarkets.app.loans.insurance.emistore.investment.cards",
+                "app_store_id": "1458582410"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

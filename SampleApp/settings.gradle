@@ -1,0 +1,1 @@
+include ':app', ':Plum5SDK', ':estimote-sdk', ':P5-plugin'
